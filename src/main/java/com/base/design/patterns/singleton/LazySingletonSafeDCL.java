@@ -1,5 +1,10 @@
 package com.base.design.patterns.singleton;
 
+/**
+ * @Description: 懒汉式双重检查锁
+ * @author mutian
+ * @date 2020年9月18日
+ */
 public class LazySingletonSafeDCL {
 	
 	private static volatile LazySingletonSafeDCL INSTANCE;

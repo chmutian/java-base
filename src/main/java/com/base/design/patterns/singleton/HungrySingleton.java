@@ -1,5 +1,10 @@
 package com.base.design.patterns.singleton;
 
+/**
+ * @Description: 饿汉式
+ * @author mutian
+ * @date 2020年9月18日
+ */
 public class HungrySingleton {
 	
 	private static HungrySingleton INSTANCE = new HungrySingleton();

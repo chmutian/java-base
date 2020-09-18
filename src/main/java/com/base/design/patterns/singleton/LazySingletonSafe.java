@@ -1,5 +1,10 @@
 package com.base.design.patterns.singleton;
 
+/**
+ * @Description: 懒汉式线程安全
+ * @author mutian
+ * @date 2020年9月18日
+ */
 public class LazySingletonSafe {
 	
 	private static LazySingletonSafe INSTANCE;

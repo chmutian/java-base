@@ -1,5 +1,10 @@
 package com.base.design.patterns.singleton;
 
+/**
+ * @Description: 匿名内部类
+ * @author mutian
+ * @date 2020年9月18日
+ */
 public class AnonymousInnerClassSingleton {
 	
 	private static class SingletonHolder {
