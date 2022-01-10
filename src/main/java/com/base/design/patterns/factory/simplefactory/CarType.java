@@ -13,7 +13,7 @@ public enum CarType {
 		this.constructor = constructor;
 	}
 
-	public Supplier<Car> getConstructor() {
-		return this.constructor;
+	public Car getCar() {
+		return this.constructor.get();
 	}	
 }
